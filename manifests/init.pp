@@ -37,7 +37,7 @@
 #
 class tomcat {
 
-  class { 'java': }
+  #class { 'java': }
 
   class { 'tomcat::package':
     notify => Class['tomcat::service'],

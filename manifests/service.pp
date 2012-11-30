@@ -14,7 +14,7 @@
 #
 # This class file is not called directly
 class tomcat::service {
-  service { "tomcat":
+  service { "tomcat7":
     ensure     => running,
     enable     => true,
     hasstatus  => true,

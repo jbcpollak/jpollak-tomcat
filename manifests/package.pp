@@ -37,4 +37,4 @@ class tomcat::package {
       }
     }
   }
-
+}
